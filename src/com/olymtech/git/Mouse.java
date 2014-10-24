@@ -19,6 +19,6 @@ public class Mouse {
 	public void toString(String str){
 		System.out.println(this.color);
 		System.out.println(this.type);
-		System.out.println(str+":type=="+this.type);
+		System.out.println(str+"==color:"+this.color+"==type:"+this.type);
 	}
 }
