@@ -17,6 +17,7 @@ public class Mouse {
 	}
 	
 	public void toString(String str){
+		System.out.println(this.color);
 		System.out.println(str);
 	}
 }
