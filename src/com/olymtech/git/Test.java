@@ -7,6 +7,7 @@ public class Test {
 		System.out.println(">>>>Hello world !! >>>> git demo >>>>");
 		System.out.println(">>>>Hello world !! >>>> git demo >>>> first commit");
 		System.out.println(">>>> User account B commit ");
+		System.out.println(">>>> git_demo dev branch init commit <<<< ");
 	}
 
 }
