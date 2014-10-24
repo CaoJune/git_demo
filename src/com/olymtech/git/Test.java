@@ -11,6 +11,8 @@ public class Test {
 		
 		Mouse m = new Mouse();
 		m.setColor("gray");
+		
+		System.out.println(">>>> git_demo b_001 brach init commit >>>> ");
 	}
 
 	
