@@ -13,6 +13,7 @@ public class Test {
 		m.setColor("gray");
 		
 		System.out.println(">>>> git_demo b_001 brach init commit >>>> ");
+		System.out.println(">>>> git_demo dev -> b_002 brach init commit >>>> ");
 	}
 
 	
