@@ -21,4 +21,9 @@ public class Mouse {
 		System.out.println(this.type);
 		System.out.println(str+"==color:"+this.color+"==type:"+this.type);
 	}
+	public void run(){
+		System.out.println(this.color);
+		System.out.println(this.type);
+		System.out.println("run============");
+	}
 }
