@@ -1,5 +1,7 @@
 package com.olymtech.git;
 
+import java.util.List;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -16,6 +18,20 @@ public class Test {
 		System.out.println(">>>> git_demo b_002 brach 1st commit >>>> ");
 		
 	}
-
+	public static boolean isEmpty(List list){
+		return list == null || list.size() == 0;
+	}
+	
+	public static boolean isNotEmpty(List list){
+		return !isEmpty(list);
+	}
+	
+	public static boolean isEmpty(Object[] list){
+		return list == null || list.length == 0;
+	}
+	
+	public static boolean isNotEmpty(Object[] list){
+		return !isEmpty(list);
+	}
 	
 }
