@@ -1,5 +1,7 @@
 package com.olymtech.git;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -27,5 +29,14 @@ public class Mouse {
         cal.add(calendarUnit, interval);
         return cal.getTime();
     }
-	
+	public static Date StringToDate(String str) {
+		SimpleDateFormat format = new SimpleDateFormat("");
+		Date date = null;
+		try {
+			date = format.parse(str);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return date;
+	}
 }
